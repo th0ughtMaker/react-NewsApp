@@ -1,0 +1,64 @@
+.navbar{
+  width: 99vw;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content:space-between;
+  position: fixed;
+  z-index: 99;
+  
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:100%;
+  justify-content:space-evenly;
+  gap: 15px;
+
+}
+
+.navnews{
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  margin-right: 20px;
+}
+.navnews:hover{
+  color:rgba(113, 137, 248, 0.89);
+ border-bottom: 1px rgba(113, 137, 248, 0.89) solid;
+}
+
+.mainNav li{
+  list-style-type: none;
+}
+.newsCard:hover{
+ transform: scale(1.05);
+ cursor: pointer;
+ 
+}
+
+.active{
+  color:rgba(113, 137, 248, 0.89);
+  border-bottom: 1px rgba(113, 137, 248, 0.89) solid;
+  font-style: italic;
+ 
+}
+.visitnews{
+  background-color: black;
+  color: white;
+}
+.newsContent{
+  display: flex;
+  flex-direction: row;
+  justify-items: auto;
+ row-gap: 2;
+ justify-content: flex-start;
+}
+.visitnews:hover{
+  color: rgba(34, 34, 34, 0.822);
+  background-color: rgba(107, 107, 240, 0.89);;
+}
